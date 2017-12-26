@@ -1,7 +1,8 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
+import BugsReducer from "./reducer_bugs";
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  bugs: BugsReducer
 });
 
 export default rootReducer;

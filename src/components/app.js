@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+
+import BugList from "../containers/bug-list";
 
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div>
+        <BugList />
+      </div>
     );
   }
 }
