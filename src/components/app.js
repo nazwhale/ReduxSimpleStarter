@@ -5,7 +5,7 @@ import BugList from "../containers/bug-list";
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app-body">
         <BugList />
       </div>
     );
